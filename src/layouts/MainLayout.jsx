@@ -1,10 +1,9 @@
 import Footer from "../components/Footer"
 
-const MainLayout = ({ children }) => {
+const MainLayout = ({children}) => {
     return (
         <>
-            <header>this is header</header>
-            <main>{children}</main>
+            <main className="w-full flex flex-col items-center justify-center">{children}</main>
             <Footer/>
         </>
     )

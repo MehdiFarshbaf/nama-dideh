@@ -14,8 +14,14 @@ export const footerLink = [
 ]
 
 export const contactUsList = [
-    { id: 0, icon: <PhoneIcon />, lable: '09123456789' },
-    { id: 1, icon: <MailIcon />, lable: 'info@namadideh.com' },
-    { id: 2, icon: <LocationIcon />, lable: 'tehran' },
-    { id: 2, icon: <TelegramIcon />, lable: '@namadideh' }
+    { id: 0, icon: <PhoneIcon />, label: '09123456789' },
+    { id: 1, icon: <MailIcon />, label: 'info@namadideh.com' },
+    { id: 2, icon: <LocationIcon />, label: 'tehran' },
+    { id: 2, icon: <TelegramIcon />, label: '@namadideh' }
+]
+
+export  const processStep=[
+    {id:0,title:'انتخاب هدف',description:'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است'},
+    {id:1,title:'برنامه ریزی',description:'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است'},
+    {id:2,title:'تولید و انتشار محتوا',description:'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است'}
 ]

@@ -1,14 +1,14 @@
 import AboutUs from "../components/home/AboutUs"
 import ContactUs from "../components/home/ContactUs"
-import Contentproduction from "../components/home/Contentproduction"
+import ContentProduction from "../components/home/ContentProduction"
 
 
 const Home = () => {
     return (
         <div>
-            <Contentproduction/>
+            <ContentProduction/>
             <AboutUs/>
-           <ContactUs/>
+            <ContactUs/>
         </div>
     )
 }
