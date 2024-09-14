@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <footer className="w-full mb-28 flex flex-col justify-center items-center pb-11 pt-14 bg-bgGray">
             <img src={Logo} alt="logo" className='mb-14 object-fill' />
-            <div className="flex gap-10 sm:flex-col">
+            <div className="flex gap-10 sm:flex-col rtl">
                 {footerLink.map(item => (
-                    <Link className='text-text1 sm:text-center font-semibold text-sm' to={item.path} >{item.label}</Link>
+                    <Link key={item.id} className='text-text1 sm:text-center font-semibold text-sm' to={item.path} >{item.label}</Link>
                 ))}
             </div>
 

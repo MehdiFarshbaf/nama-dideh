@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .title-home{
+        @apply text-center text-5xl sm:text-2xl font-black bg-gradient-to-r from-bgBlue to-bgRed inline-block text-transparent bg-clip-text 
+    }
+}
+
 @layer utilities {
     .rtl {
         direction: rtl;

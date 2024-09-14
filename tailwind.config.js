@@ -8,7 +8,9 @@ module.exports = {
       colors:{
         bgGray:'#D9D9D9',
         black:'#000000',
-        text1: '#050505'
+        text1: '#050505',
+        bgBlue:'#1C39BB',
+        bgRed:'#F15A24'
       }
     },
     screens: {
