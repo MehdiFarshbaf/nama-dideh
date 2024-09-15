@@ -10,7 +10,10 @@ module.exports = {
                 black: '#000000',
                 text1: '#050505',
                 bgBlue: '#1C39BB',
-                bgRed: '#F15A24'
+                bgRed: '#F15A24',
+                textWhite:'#FFFFFF',
+                textGray:'#646464',
+                bgBlue2:'#E7EBFF'
             }
         },
         screens: {

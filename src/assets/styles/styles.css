@@ -10,6 +10,9 @@
     .inside {
         @apply max-w-[1600px] xl:px-4 md:px-2;
     }
+    .rowTable{
+        @apply text-center font-normal text-2xl text-textGray flex justify-center items-center gap-2 h-[56px]
+    }
 }
 
 @layer utilities {

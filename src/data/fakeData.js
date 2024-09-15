@@ -49,3 +49,30 @@ export const FacilitiesList = [
     {id: 3, title: 'لورم ایپسوم', icon: <MonitorIcon/>},
     {id: 4, title: 'لورم ایپسوم', icon: <MobileIcon/>}
 ]
+export const planOne = [
+    {id: 0, facility: 'امکانات', state: true},
+    {id: 1, facility: 'امکانات', state: true},
+    {id: 2, facility: 'امکانات', state: false},
+    {id: 3, facility: 'امکانات', state: false},
+    {id: 4, facility: 'امکانات', state: false},
+    {id: 5, facility: 'امکانات', state: false},
+    {id: 6, facility: 'امکانات', state: false},
+]
+export const planTwo = [
+    {id: 0, facility: 'امکانات', state: true},
+    {id: 1, facility: 'امکانات', state: true},
+    {id: 2, facility: 'امکانات', state: true},
+    {id: 3, facility: 'امکانات', state: true},
+    {id: 4, facility: 'امکانات', state: false},
+    {id: 5, facility: 'امکانات', state: false},
+    {id: 6, facility: 'امکانات', state: false},
+]
+export const planThree = [
+    {id: 0, facility: 'امکانات', state: true},
+    {id: 1, facility: 'امکانات', state: true},
+    {id: 2, facility: 'امکانات', state: true},
+    {id: 3, facility: 'امکانات', state: true},
+    {id: 4, facility: 'امکانات', state: true},
+    {id: 5, facility: 'امکانات', state: true},
+    {id: 6, facility: 'امکانات', state: true},
+]
