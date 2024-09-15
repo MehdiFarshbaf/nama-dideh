@@ -3,7 +3,7 @@ import TickIcon from "../icons/TickIcon";
 
 const Facilities = () => {
     return (
-        <section className="w-full flex flex-col justify-center mb-[137px] md:mb-[94px]">
+        <section className="w-full flex flex-col justify-center mb-[137px] md:mb-[94px] items-center">
             <p className="title-home rtl">امکانات VOD</p>
             <div
                 className="w-full mb-[100px] sm:mb-[70px] flex justify-center items-center mt-11 gap-[132px] md:flex-wrap md:gap-[100px] sm:gap-0 sm:justify-center justify-items-center">
@@ -15,8 +15,8 @@ const Facilities = () => {
                     </div>
                 ))}
             </div>
-            <div className="inside flex justify-center">
-               <div className="shadow-lg w-full max-w-[1100px]  rounded-[20px]">
+            <div className="inside w-full flex justify-center">
+               <div className="shadow-lg w-full flex justify-center max-w-[1100px]  rounded-[20px]">
                    <table
                        className="table-auto items-center w-full max-w-[1100px]  rounded-[20px] overflow-hidden ">
                        <thead>
@@ -38,7 +38,7 @@ const Facilities = () => {
                                    <div className="flex justify-center items-center gap-2">{planTwo[index].facility}{planTwo[index].state && <TickIcon/>}</div>
                                </td>
                                <td className="text-center font-normal text-2xl text-textGray">
-                                   <div className="flex justify-center items-center gap-2">{planThree[index].facility}{planThree[index].state && <TickIcon/>}</div>
+                                   <div className="flex justify-center items-center gap-2">{planOne[index].facility}{planOne[index].state && <TickIcon/>}</div>
                                </td>
                            </tr>
                        ))}
