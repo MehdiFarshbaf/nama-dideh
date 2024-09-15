@@ -9,7 +9,7 @@ import Hero from "../components/home/Hero";
 const Home = () => {
     return (
         <>
-            {/*<Hero/>*/}
+            <Hero/>
             <Platform/>
             <Facilities/>
             <ContentProduction/>

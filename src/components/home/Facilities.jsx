@@ -1,9 +1,19 @@
 import {FacilitiesList, planOne, planThree, planTwo} from "../../data/fakeData";
 import TickIcon from "../icons/TickIcon";
+import {useContext, useEffect, useRef} from "react";
+import {AuthContext} from "../../context/context";
 
 const Facilities = () => {
+    const {area: areaContext} = useContext(AuthContext)
+    const titleRef = useRef(null)
+
+    useEffect(() => {
+        if (areaContext == 'platform') {
+            titleRef.current.scrollIntoView({behavior: 'smooth'});
+        }
+    }, [areaContext]);
     return (
-        <section className="w-full flex flex-col justify-center mb-[137px] md:mb-[94px] items-center">
+        <section className="w-full flex flex-col justify-center mb-[137px] md:mb-[94px] items-center" ref={titleRef}>
             <p className="title-home rtl">امکانات VOD</p>
             <div
                 className="w-full mb-[100px] sm:mb-[70px] flex justify-center items-center mt-11 gap-[132px] md:flex-wrap md:gap-[100px] sm:gap-0 sm:justify-center justify-items-center">
@@ -30,7 +40,7 @@ const Facilities = () => {
                        </thead>
                        <tbody className="shadow-xl">
                        {planThree.map((item, index) => (
-                           <tr className="h-[56px] sm:h-[43px] odd:bg-bgBlue2">
+                           <tr key={item.id} className="h-[56px] sm:h-[43px] odd:bg-bgBlue2">
                                <td className="text-center font-normal text-2xl text-textGray  h-[56px] sm:h-[43px]">
                                    <div className="flex justify-center items-center gap-2">{item.facility}{item.state && <TickIcon/>}</div>
                                </td>

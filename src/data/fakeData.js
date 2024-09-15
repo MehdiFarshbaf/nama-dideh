@@ -12,17 +12,17 @@ import VideoIcon from "../components/icons/VideoIcon";
 
 
 export const footerLink = [
-    {id: 0, label: 'پلتفرم VOD', path: '/'},
-    {id: 1, label: 'تولید محتوا', path: '/'},
-    {id: 2, label: 'درباره ما', path: 'about-us'},
-    {id: 3, label: 'تماس با ما', path: '/contact-us'},
+    {id: 0, label: 'پلتفرم VOD', area: 'platform'},
+    {id: 1, label: 'تولید محتوا', area: 'content'},
+    {id: 2, label: 'درباره ما', area: 'about-us'},
+    {id: 3, label: 'تماس با ما', area: 'contact-us'},
 ]
 
 export const contactUsList = [
     {id: 0, icon: <PhoneIcon/>, label: '09123456789'},
     {id: 1, icon: <MailIcon/>, label: 'info@namadideh.com'},
     {id: 2, icon: <LocationIcon/>, label: 'tehran'},
-    {id: 2, icon: <TelegramIcon/>, label: '@namadideh'}
+    {id:3, icon: <TelegramIcon/>, label: '@namadideh'}
 ]
 
 export const processStep = [
