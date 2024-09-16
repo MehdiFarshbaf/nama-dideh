@@ -19,8 +19,8 @@ export const footerLink = [
 ]
 
 export const contactUsList = [
-    {id: 0, icon: <PhoneIcon/>, label: '09123456789'},
-    {id: 1, icon: <MailIcon/>, label: 'info@namadideh.com'},
+    {id: 0, icon: <PhoneIcon/>, label: '09124448509'},
+    {id: 1, icon: <MailIcon/>, label: 'lohrasbi@webcasting.ir'},
     {id: 2, icon: <LocationIcon/>, label: 'tehran'},
     {id:3, icon: <TelegramIcon/>, label: '@namadideh'}
 ]
@@ -28,51 +28,48 @@ export const contactUsList = [
 export const processStep = [
     {
         id: 0,
-        title: 'انتخاب هدف',
-        description: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است'
+        title: 'امکانات محیطی',
+        description: 'اجاره استودیو های صدا و تصویر مجهز FHD/4K'
     },
     {
         id: 1,
-        title: 'برنامه ریزی',
-        description: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است'
+        title: 'امکانات صوتی',
+        description: 'ارائه خدمات تهیه و تولید محتوای صوتی اعم از گویندگی و نریشن، دوبله و ...'
     },
     {
         id: 2,
-        title: 'تولید و انتشار محتوا',
-        description: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است'
+        title: 'امکانات تصویری',
+        description: 'ارائه خدمات و تولید محتوای تصویری اعم از تبلیغاتی، برندینگ، استودیویی (برنامههای تلویزیونی و شبکههای مجازی، تاکشو، فیلم کوتاه و ...)'
     }
 ]
 export const FacilitiesList = [
-    {id: 0, title: 'لورم ایپسوم', icon: <VideoIcon/>},
-    {id: 1, title: 'لورم ایپسوم', icon: <PlayIcon/>},
-    {id: 2, title: 'لورم ایپسوم', icon: <FilmIcon/>},
-    {id: 3, title: 'لورم ایپسوم', icon: <MonitorIcon/>},
-    {id: 4, title: 'لورم ایپسوم', icon: <MobileIcon/>}
+    {id: 0, title: 'کانال اختصاصی', icon: <VideoIcon/>},
+    {id: 1, title: 'پخش زنده', icon: <PlayIcon/>},
+    {id: 2, title: 'پخش فیلم و سریال', icon: <FilmIcon/>},
+    {id: 3, title: 'نرم افزار اختصاصی TV', icon: <MonitorIcon/>},
+    {id: 4, title: 'طراحی ریسپانسیو', icon: <MobileIcon/>}
 ]
 export const planOne = [
-    {id: 0, facility: 'امکانات', state: true},
-    {id: 1, facility: 'امکانات', state: true},
-    {id: 2, facility: 'امکانات', state: false},
-    {id: 3, facility: 'امکانات', state: false},
-    {id: 4, facility: 'امکانات', state: false},
-    {id: 5, facility: 'امکانات', state: false},
-    {id: 6, facility: 'امکانات', state: false},
+    {id: 0, facility: 'آپلود نامحدود محتوای تصویری', state: true},
+    {id: 1, facility: 'امکان ایجاد کانال اختصاصی کاربران', state: true},
+    {id: 2, facility: 'امکان پخش زنده', state: false},
+    {id: 3, facility: 'UI/UX اختصاصی ', state: false},
+    {id: 4, facility: 'افزودن فیچرهای اختصاصی', state: false},
+    {id: 5, facility: 'پشتیبانی طراحی گرافیک سایت', state: false}
 ]
 export const planTwo = [
-    {id: 0, facility: 'امکانات', state: true},
-    {id: 1, facility: 'امکانات', state: true},
-    {id: 2, facility: 'امکانات', state: true},
-    {id: 3, facility: 'امکانات', state: true},
-    {id: 4, facility: 'امکانات', state: false},
-    {id: 5, facility: 'امکانات', state: false},
-    {id: 6, facility: 'امکانات', state: false},
+    {id: 0, facility: 'آپلود نامحدود محتوای تصویری', state: true},
+    {id: 1, facility: 'امکان ایجاد کانال اختصاصی کاربران', state: true},
+    {id: 2, facility: 'امکان پخش زنده', state: true},
+    {id: 3, facility: 'UI/UX اختصاصی ', state: true},
+    {id: 4, facility: 'افزودن فیچرهای اختصاصی', state: false},
+    {id: 5, facility: 'پشتیبانی طراحی گرافیک سایت', state: false}
 ]
 export const planThree = [
-    {id: 0, facility: 'امکانات', state: true},
-    {id: 1, facility: 'امکانات', state: true},
-    {id: 2, facility: 'امکانات', state: true},
-    {id: 3, facility: 'امکانات', state: true},
-    {id: 4, facility: 'امکانات', state: true},
-    {id: 5, facility: 'امکانات', state: true},
-    {id: 6, facility: 'امکانات', state: true},
+    {id: 0, facility: 'آپلود نامحدود محتوای تصویری', state: true},
+    {id: 1, facility: 'امکان ایجاد کانال اختصاصی کاربران', state: true},
+    {id: 2, facility: 'امکان پخش زنده', state: false},
+    {id: 3, facility: 'UI/UX اختصاصی ', state: false},
+    {id: 4, facility: 'افزودن فیچرهای اختصاصی', state: false},
+    {id: 5, facility: 'پشتیبانی طراحی گرافیک سایت', state: false}
 ]

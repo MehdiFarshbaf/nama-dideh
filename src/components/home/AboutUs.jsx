@@ -21,10 +21,7 @@ const AboutUs = () => {
                     <div
                         className='w-[50%] sm:w-full flex flex-col items-end gap-[26px] sm:items-center sm:justify-center'>
                         <img src={Logo} alt="logo" className='w-[193px] h-[34px] '/>
-                        <p className='font-normal text-sm text-black rtl text-justify'>لورم ایپسوم متن ساختگی با تولید
-                            سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
-                            مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
-                            با هدف بهبود ابزارهای کاربردی می باشد</p>
+                        <p className='font-normal text-sm text-black rtl text-justify'>با همکاری دو شرکت وبکستینگ (فعال در زمینه طراحی و تولید پلتفرم های نرم افزاری اختصاصی) و دیجیتال کست(فعال در زمینه تولید محتوای الکترونیکی)، فرصتی فراهم شد برای ارائه پلتفرم VOD با امکاناتی همه جانبه، تا محتواهای حرفهای، در پلتفرمی حرفهای به مخاطبان تقدیم شود.</p>
                     </div>
                     <div className='w-[50%] sm:w-full sm:flex sm:justify-center sm:items-center'>
                         <img src={AboutImage} alt="about" className='w-[417px] sm:w-full object-contain sm:h-[332px]'/>

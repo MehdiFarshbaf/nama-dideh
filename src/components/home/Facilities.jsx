@@ -26,16 +26,14 @@ const Facilities = () => {
                 ))}
             </div>
             <div className="inside w-full flex justify-center">
-               <div className="shadow-lg w-full flex justify-center max-w-[1100px]  rounded-[20px]">
+               <div className="shadow-lg w-full flex justify-center max-w-[1300px]  rounded-[20px]">
                    <table
-                       className="table-auto items-center w-full max-w-[1100px]  rounded-[20px] overflow-hidden ">
+                       className="table-auto items-center w-full max-w-[1400px]  rounded-[20px] overflow-hidden ">
                        <thead>
                        <tr className="h-[76px]  bg-gradient-to-r from-bgRed to-bgBlue">
-                           <td className="text-center text-textWhite font-bold text-2xl">پلن 3</td>
-                           <td className="text-center text-textWhite font-bold text-2xl border-r-textWhite border-r-[3px] border-l-textWhite border-l-[3px]">پلن
-                               2
-                           </td>
-                           <td className="text-center text-textWhite font-bold text-2xl">پلن 1</td>
+                           <td className="text-center text-textWhite font-bold text-2xl">طلایی</td>
+                           <td className="text-center text-textWhite font-bold text-2xl border-r-textWhite border-r-[3px] border-l-textWhite border-l-[3px]">نقره ای</td>
+                           <td className="text-center text-textWhite font-bold text-2xl">برنزی</td>
                        </tr>
                        </thead>
                        <tbody className="shadow-xl">
