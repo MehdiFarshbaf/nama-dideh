@@ -5,7 +5,7 @@ import {AuthContext} from "../../context/context";
 const Hero = () => {
     const {setArea} = useContext(AuthContext)
     return (
-        <section className="mb-[172px] mt-[116px] lg:mt-[10px] lg:mb-[20px] w-full flex justify-center items-center xl:h-[800px]">
+        <section className="mb-[172px]  lg:mb-[20px] w-full flex justify-center items-center xl:h-[800px]">
             <div
                 className="inside w-full flex justify-center items-center h-[1200px] bg-no-repeat bg-center relative bg-[url('./../../assets/images/hero.png')] lg:bg-[url('./../../assets/images/hero2.png')]">
                 <img src={logo2} alt="logo" className="absolute lg:h-[56px] lg:w-[52px]"/>
