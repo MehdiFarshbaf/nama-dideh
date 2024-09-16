@@ -20,7 +20,7 @@ export const footerLink = [
 
 export const contactUsList = [
     {id: 0, icon: <PhoneIcon/>, label: '09124448509'},
-    {id: 1, icon: <MailIcon/>, label: 'lohrasbi@webcasting.ir'},
+    {id: 1, icon: <MailIcon/>, label: 'info@webcasting.ir'},
     {id: 2, icon: <LocationIcon/>, label: 'tehran'},
     {id:3, icon: <TelegramIcon/>, label: '@namadideh'}
 ]
