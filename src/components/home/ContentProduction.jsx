@@ -17,7 +17,7 @@ const ContentProduction = () => {
         <section className="w-full flex  justify-center mb-36 sm:mb-14" ref={titleRef}>
             <div className="inside flex flex-col justify-center">
                 <p className="title-home">تولید محتوا</p>
-                <div className="w-full flex justify-center items-start mt-14 sm:mt-5 gap-[50px] md:flex-col">
+                <div className="w-full flex justify-center items-center mt-14 sm:mt-5 gap-[50px] md:flex-col">
                     <img src={contentImage} alt="content" className='object-cover rounded-md w-[824px] xl:w-[50%] md:w-full md:h-[423px]'/>
                     <div>
                         {/* <p className='rtl mb-9 text-black font-normal text-sm text-justify'>لورم ایپسوم متن ساختگی با

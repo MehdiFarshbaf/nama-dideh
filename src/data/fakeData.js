@@ -50,7 +50,7 @@ export const FacilitiesList = [
     {id: 4, title: 'طراحی ریسپانسیو', icon: <MobileIcon/>}
 ]
 export const planOne = [
-    {id: 0, facility: 'آپلود نامحدود محتوای تصویری', state: true},
+    {id: 0, facility: 'آپلود حداکثر ۲۰۰ محتوای تصویری', state: true},
     {id: 1, facility: 'امکان ایجاد کانال اختصاصی کاربران', state: true},
     {id: 2, facility: 'امکان پخش زنده', state: false},
     {id: 3, facility: 'UI/UX اختصاصی ', state: false},
@@ -58,7 +58,7 @@ export const planOne = [
     {id: 5, facility: 'پشتیبانی طراحی گرافیک سایت', state: false}
 ]
 export const planTwo = [
-    {id: 0, facility: 'آپلود نامحدود محتوای تصویری', state: true},
+    {id: 0, facility: 'آپلود حداکثر ۱۰۰۰ محتوای تصویری', state: true},
     {id: 1, facility: 'امکان ایجاد کانال اختصاصی کاربران', state: true},
     {id: 2, facility: 'امکان پخش زنده', state: true},
     {id: 3, facility: 'UI/UX اختصاصی ', state: true},
@@ -68,8 +68,8 @@ export const planTwo = [
 export const planThree = [
     {id: 0, facility: 'آپلود نامحدود محتوای تصویری', state: true},
     {id: 1, facility: 'امکان ایجاد کانال اختصاصی کاربران', state: true},
-    {id: 2, facility: 'امکان پخش زنده', state: false},
-    {id: 3, facility: 'UI/UX اختصاصی ', state: false},
-    {id: 4, facility: 'افزودن فیچرهای اختصاصی', state: false},
-    {id: 5, facility: 'پشتیبانی طراحی گرافیک سایت', state: false}
+    {id: 2, facility: 'امکان پخش زنده', state: true},
+    {id: 3, facility: 'UI/UX اختصاصی ', state: true},
+    {id: 4, facility: 'افزودن فیچرهای اختصاصی', state: true},
+    {id: 5, facility: 'پشتیبانی طراحی گرافیک سایت', state: true}
 ]
